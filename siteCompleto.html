@@ -12,8 +12,12 @@
 
     <style>
         .tm-social {
-            width: 10px;
-            height: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .centralizar {
+            text-align: justify
         }
     </style>
 
@@ -21,6 +25,7 @@
 </head>
 
 <body>
+
     <!-- MENU-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-light" href="#">All Pop!</a>
@@ -113,33 +118,48 @@
 
     <!-- /adicionando um carousel-->
 
+    <!-- adicionando um cabeçalho-->
+    <h5>Destaques: <span class="badge badge-secondary"></span></h5>
+    <br>
+    <!-- /adicionando um cabeçalho-->
+
     <!-- cards-->
     <div class="card-deck">
         <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+            <img class="card-img-top" src="assets/img/got2.jfif" alt="Imagem de capa do card">
             <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma
-                    introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                <h5 class="card-title">Game Of Thrones</h5>
+                <p class="card-text centralizar">É uma série de televisão norte-americana criada por David Benioff e D.
+                    B. Weiss,
+                    baseada na série de livros A Song of Ice and Fire de George R. R. Martin.Situada nos continentes
+                    fictícios de Westeros e Essos, a série centra-se no Trono de Ferro dos Sete Reinos e segue um enredo
+                    de alianças e conflitos entre as famílias nobres dinásticas, seja competindo para reivindicar o
+                    trono ou lutando por sua independência.</p>
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+            <img class="card-img-top" src="assets/img/freins1.jpg" alt="Imagem de capa do card">
             <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
-                    conteúdo adicional.</p>
+                <h5 class="card-title">Friends</h5>
+                <p class="card-text centralizar">É uma sitcom americana criada por David Crane e Marta Kauffman e
+                    apresentada pela
+                    rede de televisão NBC entre 22 de setembro de 1994 e 6 de maio de 2004, com um total de 236
+                    episódios. A série girava em torno de um grupo de amigos que vivia no bairro de Greenwich Village,
+                    na ilha de Manhattan, na cidade de Nova York.</p>
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+            <img class="card-img-top" src="assets/img/greys1.png" alt="Imagem de capa do card">
             <div class="card-body">
-                <h5 class="card-title">Título do card</h5>
-                <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução
-                    a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura
-                    igual, em ação.</p>
+                <h5 class="card-title">Greys Anatomy</h5>
+                <p class="card-text centralizar">A série foca na vida de médicos cirurgiões internos, residentes e
+                    atendentes; e
+                    como eles evoluem na sua profissão ao tentar manter a vida dos seus pacientes e nos seus
+                    relacionamentos pessoais. O título da série é uma brincadeira com Anatomia de Gray, um renomado
+                    livro de anatomia humana escrito por Henry Gray.A ideia original foi de Shonda Rhimes, que além
+                    de idealizadora é produtora executiva.</p>
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
             </div>
         </div>
@@ -148,9 +168,18 @@
 
     <!-- texto e video-->
     <div class="row mt-5 mb-5">
-        <div class="col-md-6">
-            <h3> Friends</h3>
-            <p>qualquer paragrafo</p>
+        <div class="col-md-6 centralizar">
+            <h3>Friends</h3>
+            <p>Rachel Green , uma mulher protegida, mas amigável, foge do dia de seu casamento e de sua vida rica, mas
+                insatisfatória, e encontra a amiga de infância Monica Geller , uma cozinheira tensa, mas carinhosa.
+                Rachel se torna uma garçonete no café West Village Central Perk depois que ela se muda para o
+                apartamento de Monica acima do Central Perk e se junta ao grupo de amigas solteiras de Monica em seus 20
+                e poucos anos: colega de quarto anterior Phoebe Buffay , uma excêntrica massagista e musicista; o
+                vizinho Joey Tribbiani , um ator e mulherengo esforçado, mas leal, estúpido; Chandler Bing , colega de
+                quarto de Joey , um processador de dados sarcástico e autodepreciativo; e o irmão mais velho de Monica e
+                colega de quarto de Chandler na faculdade, Ross Geller, um paleontólogo doce, mas inseguro .
+                Os episódios retratam as aventuras cômicas e românticas dos amigos e problemas de carreira, como Joey
+                fazendo testes para papéis ou Rachel procurando emprego na indústria da moda.</p>
         </div>
         <div class="col-md-6">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZeaqKj_Mxrw"
@@ -161,17 +190,56 @@
     </div>
     <!-- /texto e video-->
 
+    <!-- Formulário de contato-->
+    <div class='row'>
+        <div class='col-md-12 mb-5'>
+            <h4 class='text-center'> Entre em contato com a gente!</h4>
+        </div>
+    </div>
+
+    <div class='row d-flex align-items-center'>
+        <div class='col-md-6'>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Endereço de email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-outline-dark">Enviar</button>
+                </div>
+            </form>
+
+        </div>
+
+        <div class='col-md-6'>
+            <iframe class="w-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3890888524083!2d-34.87068730000001!3d-8.0617353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48f26183d%3A0x6a9ebfb27ba8f98d!2sPra%C3%A7a%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050030-230!5e0!3m2!1sen!2sbr!4v1661524078009!5m2!1sen!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+
+
+    <!-- /Formulário de contato-->
+
 
     <!-- rodapé-->
+    <hr>
     <footer>
         <div class="row d-flex justify-content-center">
             <div class="col-md-12">
-                <div class="container width= 10px height=10px">
+                <div class="container d-flex justify-content-center">
                     <a href="https://www.linkedin.com/in/paloma-freire-68282b182/" target="_blank">
-                        <img class="tm p-30" src="assets/img/linkedin.png" alt="logo do linkedin">
+                        <img class="tm p-30 tm-social" src="assets/img/linkedin.png" alt="logo do linkedin">
                     </a>
                     <a href="https://github.com/palomafreiire" target="_blank">
-                        <img class="tm p-30" src="assets/img/github.png" alt="logo do github">
+                        <img class="tm p-30 tm-social" src="assets/img/github.png" alt="logo do github">
                     </a>
                 </div>
             </div>
@@ -184,8 +252,8 @@
             </div>
         </div>
 
-       
-       
+
+
 
     </footer>
     <!-- /rodapé-->
